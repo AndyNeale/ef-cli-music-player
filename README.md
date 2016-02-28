@@ -85,6 +85,7 @@ A user can see what other users they are following have listed to using the comm
 
 e.g.
 
+```
 $ Aymeric activity
 
 Mihai listened to Hard To Handle by The Black Crowes
