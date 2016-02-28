@@ -8,6 +8,7 @@ var climp		= require( './climp' ),
 	utils		= require( './utils' ) ;
 	readline	= require( 'readline' ).createInterface( process.stdin, process.stdout ) ;
 
+// Set command prompt
 readline.setPrompt( '$ ') ;
 
 // Get input from user

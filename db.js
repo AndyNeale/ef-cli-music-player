@@ -1,3 +1,8 @@
+// This is where anything database-y happens
+// For the demo we're using LokiJS - http://lokijs.org/#/ - an in-memory document database
+// This could be swapped out for something like MongoDB with a minimum of effort
+// (but having a database available as simply as "npm install lokijs" was too good to resist)
+
 var loki	= require( 'lokijs' ),
 	db		= new loki( 'loki.json' ),
 	utils	= require( './utils' ),
