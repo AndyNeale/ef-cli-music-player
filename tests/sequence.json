@@ -1,0 +1,39 @@
+[
+	{
+		"input": "Mihai play Hard To Handle by The Black Crowes",
+		"expected": ""
+	},
+	{
+		"input": "Adrian play Hooked on a Feeling by Blue Swede",
+		"expected": ""
+	},
+	{
+		"input": "Adrian play Escape by Robert Holmes",
+		"expected": ""
+	},
+	{
+		"input": "Mihai",
+		"expected": [ "Listened to Hard To Handle by The Black Crowes" ]
+	},
+	{
+		"input": "Adrian",
+		"expected": [ "Listened to Hooked on a Feeling by Blue Swede", "Listened to Escape by Robert Holmes" ]
+	},
+	{
+		"input": "Aymeric follow Mihai",
+		"expected": ""
+	},
+	{
+		"input": "Aymeric activity",
+		"expected": [ "Mihai listened to Hard To Handle by The Black Crowes" ]
+	},
+	{
+		"input": "Aymeric follow Adrian",
+		"expected": ""
+	},
+	{
+		"input": "Aymeric activity",
+		"expected": [ "Adrian listened to Escape by Robert Holmes", "Adrian listened to Hooked on a Feeling by Blue Swede", "Mihai listened to Hard To Handle by The Black Crowes" ]
+	}
+
+]
